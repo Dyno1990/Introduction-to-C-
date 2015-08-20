@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AgeOlder
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Fill your age: ");
+            int Age = int.Parse(Console.ReadLine());
+            Age = Age + 10;
+            Console.WriteLine("After 10 years you will be on: " + Age);
+        }
+    }
+}
